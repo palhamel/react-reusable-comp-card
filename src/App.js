@@ -4,7 +4,7 @@ import { Card } from 'lib/Card'
 export const App = () => {
   return (
     <div>
-      <Card />
+      <Card title="This is the Title text via props" secondaryText="Secondary Text via props"/>
     </div>
   )
 }
